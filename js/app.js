@@ -266,3 +266,28 @@ let age1 =()=>{
 
 let age2 =()=> console.log("This is an arrow function " , " I am 21 years old");
 
+//==================================================================
+//Arrays
+//==================================================================
+
+console.log("\n\n");
+
+let fruits = ["Apple", "Banana", "Orange"];
+console.log(fruits);
+
+console.log("\n\n");
+
+let mixedArray = ["Apple", 5, true, null];
+console.log(mixedArray);
+
+for(let i=0; i<mixedArray.length; i++){
+    console.log(mixedArray[i]);
+}
+
+console.log("\n\n");
+
+console.log(typeof mixedArray, " length is  : ", mixedArray.length);
+
+console.log("\n\n");
+
+
