@@ -207,8 +207,9 @@ let total=0;
 while(number<10){
     total += number;
     console.log("Total is: " , total); // Concatanation + or , can use
-    console.log("Total is: " + total); // We do not use + to concatanate string and number in console.log() because it will convert the number to string and then concatanate it with the string.
-                                       // So we use , to concatanate string and number in console.log()
+    console.log("Total is: " + total); // We do not use + to concatanate string and number in console.log() 
+                                       // because it will convert the number to string and then concatanate it with the string.
+                                       // So we use "," to concatanate string and number in console.log()
     number++;
 }
 
@@ -226,5 +227,42 @@ while(false){
 
 do{
     console.log("This is do while loop");
+
+}while(false);
+
+//==================================================================
+//Functions
+//==================================================================
+
+console.log("\n\n");
+
+function addNumbers(num1, num2){
+    let sum = num1 + num2;
+    return sum;
 }
-while(false);
+
+let result = addNumbers(10, 20);
+console.log("The sum is : " , result);
+
+console.log("The sum is : ", addNumbers(10, 20));
+
+//------------Function Expression-------------------
+
+console.log("\n\n");
+
+let c=function(){
+    console.log("This is a function expression");
+}
+
+console.log(c());
+
+//------------Arrow Function-------------------
+
+console.log("\n\n");
+
+let age1 =()=>{
+    console.log("This is an arrow function " , " I am 21 years old");
+}
+
+let age2 =()=> console.log("This is an arrow function " , " I am 21 years old");
+
