@@ -178,3 +178,53 @@ switch(day){
         console.log("Innvalid Day");
         break
 }
+
+//==================================================================
+//for - loop statements
+//==================================================================
+
+console.log("\n\n");
+
+for(let i=0; i< 10 ;i++){
+    console.log(i);
+}
+
+//==================================================================
+//while - loop statements
+//==================================================================
+
+console.log("\n\n");
+
+let i=0;
+while(i==10){
+    console.log(i);
+    i++;
+}
+
+let number=0;
+let total=0;
+
+while(number<10){
+    total += number;
+    console.log("Total is: " , total); // Concatanation + or , can use
+    console.log("Total is: " + total); // We do not use + to concatanate string and number in console.log() because it will convert the number to string and then concatanate it with the string.
+                                       // So we use , to concatanate string and number in console.log()
+    number++;
+}
+
+
+//==================================================================
+//Do - while - loop statements
+//==================================================================
+
+console.log("\n\n");
+
+while(false){
+    console.log("This is while loop");
+}
+
+
+do{
+    console.log("This is do while loop");
+}
+while(false);
