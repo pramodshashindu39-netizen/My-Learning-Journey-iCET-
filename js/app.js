@@ -261,10 +261,15 @@ console.log(c());
 console.log("\n\n");
 
 let age1 =()=>{
-    console.log("This is an arrow function " , " I am 21 years old");
+    console.log("This is an arrow function " , " I am 21 years old");  
 }
 
-let age2 =()=> console.log("This is an arrow function " , " I am 21 years old");
+console.log(age1());
+
+
+let age2 =()=> console.log("This is an arrow function one line  " , " I am 21 years old");
+
+console.log(age2());
 
 //==================================================================
 //Arrays
@@ -290,4 +295,24 @@ console.log(typeof mixedArray, " length is  : ", mixedArray.length);
 
 console.log("\n\n");
 
+//==================================================================
+//Objects
+//==================================================================
 
+let person = {
+    name: "Shasindu Pramod",
+    age: 21,
+    isStudent: "Student",
+    guardianName: "Mrs . Rathna Irangani",
+    address: "Horana, Bulathsinhala"
+}
+
+console.log(person);
+
+console.log("\n\n");
+
+console.log(person.name);
+console.log(person.age);
+console.log(person.isStudent);
+console.log(person.guardianName);
+console.log(person.address);
